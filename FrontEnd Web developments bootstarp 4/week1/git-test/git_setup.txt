@@ -1,0 +1,15 @@
+git --version
+git config --global user.name "person_name"
+git config --global user.email abc@mail.com
+git config --list # to list all configuration
+
+git add . 
+git commint -m "commint message"
+git status
+git log --oneline
+git checkout <commit id> <file>
+git cheackout HEAD <file>
+git remote add origin <github repository http address>
+git push -u origin master 
+git clone <github repository address to get on local machine>
+
