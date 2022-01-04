@@ -59,6 +59,9 @@
                 <div class="col-12 col-sm align-self-center">
                     <img src="img/logo.png" alt="logo">
                 </div>
+                <div class="col-12 col-md align-self-center">
+                    <a href="reservetable"><button type="button" class="btn btn-warning">Reserve Table</button></a>
+                </div>
             </div>
         </div>
     </header>
@@ -90,7 +93,7 @@
                 <div class=" media">
                     <img class=" d-flex img-thumbnail mr-3 align-self-center" src="img/buffet.png" alt="buffet">
                     <div class=" media-body">
-                        <h2>Weekend Grand Buffet</h2>
+                        <h2>Weekend Grand Buffet <span class=" badge badge-danger">NEW</span></h2>
                         <p class="d-none d-md-block">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
                     </div>
                 </div>
@@ -114,6 +117,46 @@
                 </div>
 
             </div>
+        </div>
+        <div class=" row row-content align-self-center" id="reservetable">
+            <div class="col-12 col-sm-6 offset-3">
+                <div class="card" style="width: auto;">
+                    <h3 class="card-header text-white" style="background-color: rgb(241, 183, 76);  font-weight: bolder;">Researve a Table</h3>
+                    <div class="card-body">
+                        <dl class="row">
+                            <dt class="col-6">Number of Guests</dt>
+                            <dd class="col-6">
+                                <form action="" style="padding: 10px; margin: 10px;">
+                                    <input type="radio" id="rank" name="guests" value="1">
+                                    <label for="rank">1</label>
+                                    <input type="radio" id="rank" name="guests" value="2">
+                                    <label for="rank">2</label>
+                                    <input type="radio" id="rank" name="guests" value="3">
+                                    <label for="rank">3</label>
+                                    <input type="radio" id="rank" name="guests" value="4">
+                                    <label for="rank">4</label>
+                                    <input type="radio" id="rank" name="guests" value="5">
+                                    <label for="rank">5</label>
+                                    <input type="radio" id="rank" name="guests" value="6">
+                                    <label for="rank">6</label>
+                                </form>
+                            </dd>
+                            <dt class=" col-6">Date and Time</dt>
+                            <dd class="col-6">
+                                <form action="" style="padding-right: 10px; margin: 10px;">
+                                    <input class="col-4" type="text" id="date" placeholder="Date">
+                                    <input class="col-4" type="text" id="time" placeholder="Time">
+
+                                </form>
+                            </dd>
+                            <dt class=" col-6">&nbsp;</dt>
+                            <dd class="col-6"><button type="button" class=" btn-primary">Reserve</button></dd>
+                        </dl>
+                    </div>
+                </div>
+
+            </div>
+
         </div>
     </div>
 
